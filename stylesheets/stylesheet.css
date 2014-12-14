@@ -508,6 +508,7 @@ button:active,
 /* ==========================================================================
    =CORE
    ========================================================================== */
+
 .section__overlay {
   background: rgba(0,0,0,0.1);
   background: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
@@ -576,6 +577,7 @@ img {
   display: block;
   float: left;
 }
+
 .menu a {
   display: block;
   padding: 1.5em;
@@ -588,10 +590,9 @@ img {
 .gradient-icon {
     height:40px;
     width: 40px;
-    /*float: right;*/
-    display:;
-    background:linear-gradient(to bottom, black 0%, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
+    float: right;
     visibility: hidden;
+    background:linear-gradient(to bottom, black 0%, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
 }
 
 a:hover.gradient-icon {
@@ -601,18 +602,17 @@ a:hover.gradient-icon {
 
 @media only screen and (max-width : 640px) {
 
-/*  header {
+  header {
 
     position: absolute;
 
-  }*/
+  }
 
   .gradient-icon {
-
+    visibility: visible;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
-    visibility: visible;
   }
 
   nav ul, nav:active ul { 
@@ -636,7 +636,7 @@ a:hover.gradient-icon {
     margin: 0;
   }
 
-  nav:hover ul {
+  nav:hover ul{
     display: block;
   }
 
