@@ -554,11 +554,15 @@ img {
   background: white;
   z-index: 3;
   width: 100%;
+<<<<<<< HEAD
 =======
   background: rgba(255,255,255,.9);
   z-index: 999999;
   width: 100%
 >>>>>>> upstream/master
+=======
+  max-height: 23%;
+>>>>>>> responsive-header
 }
 .masthead-cont {
   font-size: 16px;
@@ -573,7 +577,10 @@ img {
 }
 .masthead .menu {
   float: right;
+  position: relative;
+  top: -50px;
 }
+
 .menu ul {
   margin: 0;
   padding: 0;
@@ -594,9 +601,17 @@ img {
 }
 
 .gradient-icon {
+<<<<<<< HEAD
     height: 10px;
     width: 10px;
     float: right;
+=======
+    height:30px;
+    width: 30px;
+    border-radius: 4px;
+    display: hidden;
+    background:linear-gradient(to bottom, black 0%, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
+>>>>>>> responsive-header
     visibility: hidden;
     background:linear-gradient(to bottom, black 0%, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
     border-radius: 5px; 
@@ -609,17 +624,30 @@ a:hover.gradient-icon {
 
 @media only screen and (max-width : 640px) {
 
+<<<<<<< HEAD
   header {
+=======
+header {
+>>>>>>> responsive-header
 
     position: absolute;
 
   }
 
+  .masthead{
+    height: 75px;
+  }
   .gradient-icon {
     visibility: visible;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+<<<<<<< HEAD
+=======
+    visibility: visible;
+    position: fixed;
+    right: 15px;
+>>>>>>> responsive-header
   }
 
   nav ul, nav:active ul { 
@@ -645,6 +673,7 @@ a:hover.gradient-icon {
 
   nav:hover ul{
     display: block;
+    position: fixed;
   }
 
 }
