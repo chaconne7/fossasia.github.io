@@ -552,7 +552,7 @@ img {
   background: white;
   z-index: 3;
   width: 100%;
-  max-height: 25%;
+  max-height: 23%;
 }
 .masthead-cont {
   font-size: 16px;
@@ -569,8 +569,8 @@ img {
   float: right;
   position: relative;
   top: -50px;
-  left: 5%;
 }
+
 .menu ul {
   margin: 0;
   padding: 0;
@@ -648,7 +648,6 @@ header {
   nav:hover ul {
     display: block;
     position: fixed;
-    background: white;
   }
 
 }
